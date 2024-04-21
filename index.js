@@ -61,6 +61,8 @@ const server = http.createServer((req, res) => {
 
         res.writeHead(statusCode);
         res.end(payloadString);
+
+        console.log("The return is: ", statusCode, payload);
     })
     //res.end("Hello World\n");
 
