@@ -62,7 +62,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(statusCode);
         res.end(payloadString);
     })
-    res.end("Hello World\n");
+    //res.end("Hello World\n");
 
     //console.log(req);
     console.log(`Raw url: ${rawUrl}`);
